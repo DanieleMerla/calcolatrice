@@ -1,0 +1,47 @@
+button{
+    width: 100px;
+    height: 100px;
+    font-size: xx-large;
+    border-radius: 25px;
+    margin: 5px;
+    background-color: lightgrey;
+    border-width: 5px;
+    font-weight: bold;
+}
+
+#result{
+    flex-direction: row;
+    align-items: flex-end;
+    text-align: right;
+    width: 440px;
+    height: 50px;
+    font-size: xx-large;
+    border-radius: 25px;
+    background-color: lightgrey;
+    border-color: black;
+    font-weight: bold;
+    border-width: 5px;
+
+}
+#enter{
+    width: 218px;
+    height: 100px;
+    font-size: xx-large;
+}
+div{
+    flex-direction: row;
+    align-items: center;
+
+}
+
+body{
+    background-color: darkgray;
+    display: flex;
+    text-align: center;
+    justify-content: center ;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+}

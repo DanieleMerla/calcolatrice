@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- decodifica caratteri speciali-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- compabilità edge/explorer -->
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0" />
+    <!-- compatiblità con tutti dispositivi-->
+    <link rel="stylesheet" href="style.css" />
+    <!-- referenza al file style.css che indica lo stile-->
+
+    <link rel="icon" type="image/png" href="C:\Users\merla\Desktop\JAC\Web\3\calculator.png">
+    <title>Calcolatrice</title>
+
+  </head>
+
+  <body>
+    <header></header>
+
+    <main>
+        <div>
+      <h1><b>CALCOLATRICE</b></h1>
+      <input type="text" id="result" name="result" value="0" readonly><br><br>
+      <button onclick="CancAll()">C/A</button>
+      <button onclick="CancLast()">C</button>
+      <button onclick="addOp('**')">^</button>
+      <button onclick="addOp('/')">/</button><br>
+      <button onclick="addChar(7)">7</button>
+      <button onclick="addChar(8)">8</button>
+      <button onclick="addChar(9)">9</button>
+      <button onclick="addOp('*')">*</button><br>
+      <button onclick="addChar(4)">4</button>
+      <button onclick="addChar(5)">5</button>
+      <button onclick="addChar(6)">6</button>
+      <button onclick="addOp('-')">-</button><br>
+      <button onclick="addChar(1)">1</button>
+      <button onclick="addChar(2)">2</button>
+      <button onclick="addChar(3)">3</button>
+      <button onclick="addOp('+')">+</button><br>
+      <button onclick="addChar(0)">0</button>
+      <button onclick="addChar('.')">.</button>
+      <button id="enter" onclick="execute()">Enter</button><br><br>
+      
+    </div>
+
+     
+      
+    </main>
+
+    <footer>
+      <br />
+      <!-- source dello script è il file test.js -->
+
+      <script src="test.js"></script>
+    </footer>
+  </body>
+</html>
